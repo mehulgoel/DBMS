@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Apartment Management
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<h1 class="jumbotron text-center">
+		Apartment Management System
+	</h1>
+	<div class="col-sm-4" style="background-color:lavender;"></div>
+	<div id="login">
+		<form name="login_form" action="find.php" method="post" id="form" class="col-sm-4">
+			<div id ="1" >Username</div>
+			<input type="text" name="USN" id="usern">
+			<br>
+			<br>
+			<div id="2"  >Password</div>
+			<input type="password" name="pass" id="pwd">
+			<br>
+			<br>
+			<input type="submit" name="Find" >
+
+			<p id="error"></p>
+		</form>
+	</div>
+	    <div class="col-sm-4" style="background-color:lavender;"></div>
+</body>
+</html>
